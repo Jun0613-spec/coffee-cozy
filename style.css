@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    margin: 40px auto 60px auto;
+    display: flex;
+}
+
+.text-over {
+    vertical-align: center;
+    margin: auto;
+    background-color: black;
+    width: 1200px;
+}
+
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img{
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*iaspjg*_ga*NzQ0NzIwNzMxNS4xNjY1NTYxMDMy*_ga_3LRZM6TM9L*MTY2NTk5NDkwOC43LjEuMTY2NTk5ODEzNy41OS4wLjA.");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+    margin-bottom: auto;
+}
+
+footer {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
